@@ -1,0 +1,47 @@
+PART 1: 
+Q1: C
+Q2: B
+Q3: C
+Q4: D
+Q5: A
+Q6: B
+Q7: B
+Q8: C
+Q9: D
+Q10: A
+
+Q11:B
+Q12:C
+Q13:B
+Q14:D
+Q15:A
+Q16:D
+Q17:A
+Q18:A
+Q19:A
+Q20:A
+
+Q21:C
+Q22:D
+Q23:C
+Q24:A
+Q25:D
+Q26:B
+Q27:C
+Q28:A
+Q29:D
+Q30:C
+
+PART 2: 
+
+Virtualisation VS Containerisation 
+
+Model 1 refers to the virtualisation deployment model. In this model, a software called hypervisor installed on a physical server allows to create and run multiple virtual copies of our physical server (called VMs - virtual machines) where we can run our applications. The physical server's resources such as CPU and memory of our physical server are equally split between the VMs, regardless of whether the applications use them. Each VM can run its own operating system, which can result in multiple operating systems running on one physical server. A famous virtualisation technology is VMware. 
+
+Model 2 refers to the containerisation deployment model, which can be considered an improved concept of virtualisation. According to this model, we are able to package our applications' code and necessary components in isolated, portable and lightweight "containers". Containers are single executable package of software which include everything an application needs to run, such as configuration files, libraries, frameworks and dependencies. Unlike virtualisation, this model prevents physical server's resource waste, as applications are provided just with the resources they require. In the cointainerisation model, containers run on the same operating system layer and a container engine(such as Docker) needs to be used to coordinate with the OS to allocate system resources as needed. 
+
+Containerisation provide a faster, more flexible and lighter weight model compared to virtualisation. While containers can be measured in MB and users have only one operating system to maintain, virtual machines which can have multiple OS are measured in GB and might decrease performance. It is important to know that while VMs are less scalable and slower compared to containers, they can provide users with more control over applications' environments. 
+
+PART 3: http://cfg-devops-master-sg.s3-website-us-east-1.amazonaws.com
+
+PART 4: ECS deployed web URL: hhttp://ec2-44-197-131-15.compute-1.amazonaws.com:8888
